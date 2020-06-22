@@ -16,6 +16,7 @@ public class TestIrctcRegistration extends BaseTest{
 	public void userRegistration() throws IOException, InterruptedException
 	{
 		
+		
 	POMRegistrationPage register = new POMRegistrationPage(driver);
 	register.userRegistration();
 
